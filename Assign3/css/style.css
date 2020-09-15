@@ -1,0 +1,116 @@
+body
+{
+	font-size: 16px;
+	color:black;
+	
+	font-family: 'Lora', serif;
+}
+.navbar-header
+{
+	background-color:  #999999;
+	width: 100%;
+
+}
+.navbar-brand
+{
+	
+ padding: 5px;
+ padding-top: 10px;
+ width: 300px;
+ font-size: 20px;
+margin-left: 25px;
+font-size: 25px;
+
+}
+button
+{
+	float: right;
+}
+#header-nav
+{
+	margin-top: -10px;
+}
+#col
+{
+	width: 100%;
+}
+
+
+@media (min-width: 768px)
+{
+	.navbar-header
+	{
+		float: left;
+	}
+}
+.main-content .tile , a
+{
+	color: black;
+
+
+}
+div.main-content > h2
+{
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+.main-content .menu-tiles .tile {
+    margin: 10px 0 10px;
+    background-color: #999999;
+    color: black;
+}
+.menu-tiles .tile > p {
+    padding: 0 10px 10px;
+}
+.navbar-toggle
+{
+	background-color: gray;	
+}
+.navbar-toggle .icon-bar
+{
+	background-color: black;
+}
+hr
+{
+	background-color: black;
+	width:100%;
+	color:blue;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	padding-top: 2px;
+
+}
+.navbar-nav
+{
+	margin:0px;
+}
+#nav-list
+{
+	border: 2px solid black;
+	padding-bottom: 5px;
+	padding-top: 2px; 
+}
+.navbar-nav > li > a
+{
+padding-left: 0px;
+padding-right:0px;
+line-height: 10px;
+padding-top: 0px;
+padding-bottom: 0px;
+
+}
+
+#pd
+{
+	padding-bottom: 0px;
+}
+.navbar-collapse
+{
+	padding-right: 0px;
+	padding-left: 0px;
+	border-top: 1px solid black;
+}
+#col
+{
+	margin-top: 5px;
+}
