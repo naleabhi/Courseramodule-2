@@ -57,7 +57,7 @@ for (var i=0;i<names.length;i++) {
   // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
-  if (str[0]=='j' ||str[0]=='J') {
+  if (str[0]=='j'||str[0]=='J') {
 
      byeSpeaker.speak(str);
     // byeSpeaker.xxxx
@@ -67,4 +67,4 @@ for (var i=0;i<names.length;i++) {
 
   }
 }
-}) ();
+})();
